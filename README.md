@@ -21,7 +21,7 @@ This guide explains how to fix the `trl.trainer.grpo_config.GRPConfig` error whe
 pip install --force-reinstall transformers==4.51.3 trl==0.19.1
 ```
 
-3. **Freeze:
+3. **Freeze:**
 ```
 pip freeze
 ```
