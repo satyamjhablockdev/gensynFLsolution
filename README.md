@@ -21,10 +21,9 @@ This guide explains how to fix the `trl.trainer.grpo_config.GRPConfig` error whe
 pip install --force-reinstall transformers==4.51.3 trl==0.19.1
 ```
 
-3. **Run the reinstall command again** to clear any leftover dependency issues:
-
-```bash
-pip install --force-reinstall transformers==4.51.3 trl==0.19.1
+3. **Freeze:
+```
+pip freeze
 ```
 
 4. **Start the RL-Swarm training process again**:
